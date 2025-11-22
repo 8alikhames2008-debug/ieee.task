@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #fdfdfd;
+            padding: 20px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+        }
+
+        .card {
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+        }
+
+        .card.red {
+            border: 4px solid red;
+        }
+
+        .card.blue {
+            border: 4px dashed blue;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            margin: 10px 0;
+        }
+
+        p {
+            margin-top: 10px;
+            color: #d48806;
+        }
+
+        /* مكان الصورة */
+        .img-box {
+            width: 100%;
+            height: 150px;
+            background: #f2f2f2;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 6px;
+            overflow: hidden;
+        }
+
+        .img-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Product 1 -->
+        <div class="card red">
+            <div class="img-box">
+                <img src="teem.jpg" alt="product image">
+            </div>
+            <h2> teem </h2>
+            <ul>
+                <li>spec 1</li>
+                <li>spec 2</li>
+                <li>spec 3</li>
+            </ul>
+            <p> ده التيم بتعنا </p>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="card blue">
+            <div class="img-box">
+                <img src="ali2.jpg" alt="product image">
+            </div>
+            <h2> meee </h2>
+            <ul>
+                <li>spec 1</li>
+                <li>spec 2</li>
+                <li>spec 3</li>
+            </ul>
+            <p>ده انا عادي </p>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="card red">
+            <div class="img-box">
+                <img src="abdo2.jpg" alt="product image">
+            </div>
+            <h2>eng abdo</h2>
+            <ul>
+                <li>spec 1</li>
+                <li>spec 2</li>
+                <li>spec 3</li>
+            </ul>
+            <p>البشمهندس بتعنا راجل محترم </p>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="card blue">
+            <div class="img-box">
+                <img src="moes.jpg" alt="product image">
+            </div>
+            <h2>ramdan</h2>
+            <ul>
+                <li>spec 1</li>
+                <li>spec 2</li>
+                <li>spec 3</li>
+            </ul>
+            <p>ده محمد رمضان و هو بيعيط </p>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="card red">
+            <div class="img-box">
+                <img src="moes2.jpg" alt="product image">
+            </div>
+            <h2>ramdan 2</h2>
+            <ul>
+                <li>spec 1</li>
+                <li>spec 2</li>
+                <li>spec 3</li>
+            </ul>
+            <p>ده محمد رمضان و هو بيعيط بس حاضن حنان </p>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="card blue">
+            <div class="img-box">
+                <img src="moes3.jpg" alt="product image">
+            </div>
+            <h2>meeee 2</h2>
+            <ul>
+                <li>spec 1</li>
+                <li>spec 2</li>
+                <li>spec 3</li>
+            </ul>
+            <p>انا بعد مخلص الكورس </p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
